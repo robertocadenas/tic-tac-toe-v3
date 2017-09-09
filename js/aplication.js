@@ -1,6 +1,6 @@
 /*
--- build-an-interactive-form -- Techdegree -- TeamTreeHoue --
- -- Project 3 -- requirements --
+-- Tic Tac Toe -- Techdegree -- TeamTreeHoue --
+ -- Project 4 -- requirements --
 
 Meets Expectations (ME)
 
@@ -35,9 +35,6 @@ REQ.6.2 Player vs. computer. One side of the game is programmatically controlled
 
 Game Finish
 REQ.7.1 Player's name appears if they win
-
-
-
  */
 
 
