@@ -311,7 +311,7 @@ REQ.7.1 Player's name appears if they win
         function threeInARow(sq, pos1, pos2, pos3) {
             //checking if there are 3 'x' or 'o', and no three '-'';
             if (sq[pos1] === sq[pos2] && sq[pos1] === sq[pos3] && sq[pos1] !== '-') {
-                console.log('threeInARow ' + sq + '  ' + sq[pos1] + ' ' + sq[pos2] + ' ' + sq[pos3]);
+                // console.log('threeInARow ' + sq + '  ' + sq[pos1] + ' ' + sq[pos2] + ' ' + sq[pos3]);
                 return true;
             } else {
                 return false;
@@ -386,7 +386,7 @@ REQ.7.1 Player's name appears if they win
             divGamerOneName.innerHTML = gamerOneName;
             let divGamerCompName = document.createElement('div');
             divGamerCompName.setAttribute('id', 'divGamerComp');
-            divGamerCompName.innerHTML = 'Medium level machine<br>';
+            divGamerCompName.innerHTML = 'Machine<br>';
             //second, append the names
             let svgtag1 = document.getElementById('player1').getElementsByTagName('svg')[0];
             let svgtag2 = document.getElementById('player2').getElementsByTagName('svg')[0];
